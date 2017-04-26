@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/EnvironmentOntology/meso.svg?branch=master)](https://travis-ci.org/EnvironmentOntology/meso)
 [![DOI](https://zenodo.org/badge/13996/EnvironmentOntology/meso.svg)](https://zenodo.org/badge/latestdoi/13996/EnvironmentOntology/meso)
 
-# An Ontology for methods and best practices in environmental sensing (MESO)
+# An ontology for methods and best practices in environmental sensing (MESO)
 
 This ontology intends to provide an index for parts of best practice documents which pertain to environmental sensing. It will leverage semantic resources such as the Environment Ontology (ENVO), the Chemical Entities of Biological Interest Ontology (CHEBI), and the Ontology for Biomedical Investigations (OBI) to enhance discovery of best practice documents available on the Web. 
 
