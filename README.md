@@ -3,9 +3,9 @@
 
 # An ontology for methods and best practices in environmental sensing (MESO)
 
-This ontology intends to provide an index for parts of best practice documents which pertain to environmental sensing. It will leverage semantic resources such as the Environment Ontology (ENVO), the Chemical Entities of Biological Interest Ontology (CHEBI), and the Ontology for Biomedical Investigations (OBI) to enhance discovery of best practice documents available on the Web. 
+This ontology will provide a granular index for sections of best practice documents which pertain to environmental sensing. To maximise interoperability with other linked data resources, it will leverage semantics developed by the [Open Biological and Biomedical Ontologies Foundry and Library](www.obofoundry.org) such as the Information Artifact Ontology (IAO), the Environment Ontology (ENVO), the Chemical Entities of Biological Interest Ontology (CHEBI), and the Ontology for Biomedical Investomortigations (OBI) to enhance discovery of online best practice documents. 
 
-Our first use cases will involve best practice recommendations from the ocean sensing community. See our Wiki for some content examples.
+Our first use cases will involve best practice recommendations from the ocean sensing community such as the [FixO3 handbook](http://www.oceandatapractices.net/handle/11329/302). See our Wiki for some content examples.
 Please post an issue or contact [PL Buttigieg](orcid.org/0000-0002-4366-3088).
 
 ## Versions
