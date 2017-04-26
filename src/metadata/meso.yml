@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/meso
+
+idspace: MESO
+base_url: /obo/meso
+
+products:
+- meso.owl: https://raw.githubusercontent.com/EnvironmentOntology/master/meso.owl
+- meso.obo: https://raw.githubusercontent.com/EnvironmentOntology/master/meso.obo
+
+term_browser: ontobee
+example_terms:
+- MESO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/EnvironmentOntology/meso/v
+
+- prefix: /tracker/
+  replacement: https://github.com/EnvironmentOntology/meso/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/MESO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/EnvironmentOntology/meso/master/

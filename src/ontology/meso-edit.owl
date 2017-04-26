@@ -1,0 +1,20 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/meso.owl>
+Import(<http://purl.obolibrary.org/obo/meso/imports/envo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/meso/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/meso/imports/obi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/meso/imports/pco_import.owl>)
+Import(<http://purl.obolibrary.org/obo/meso/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/meso/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/meso/imports/chebi_import.owl>)
+Annotation(rdfs:comment "Methods and best practices in environmental sensing ontology")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000000>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000000> "meso"@en)
+)
