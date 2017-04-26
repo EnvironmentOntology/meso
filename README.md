@@ -1,15 +1,20 @@
-[![Build Status](https://travis-ci.org/EnvironmentOntology/methods-and-best-practices-in-environmental-sensing-ontology.svg?branch=master)](https://travis-ci.org/EnvironmentOntology/methods-and-best-practices-in-environmental-sensing-ontology)
-[![DOI](https://zenodo.org/badge/13996/EnvironmentOntology/methods-and-best-practices-in-environmental-sensing-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/EnvironmentOntology/methods-and-best-practices-in-environmental-sensing-ontology)
+[![Build Status](https://travis-ci.org/EnvironmentOntology/meso.svg?branch=master)](https://travis-ci.org/EnvironmentOntology/meso)
+[![DOI](https://zenodo.org/badge/13996/EnvironmentOntology/meso.svg)](https://zenodo.org/badge/latestdoi/13996/EnvironmentOntology/meso)
 
-# methods-and-best-practices-in-environmental-sensing-ontology
+# An Ontology for methods and best practices in environmental sensing (MESO)
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology intends to provide an index for parts of best practice documents which pertain to environmental sensing. It will leverage semantic resources such as the Environment Ontology (ENVO), the Chemical Entities of Biological Interest Ontology (CHEBI), and the Ontology for Biomedical Investigations (OBI) to enhance discovery of best practice documents available on the Web. 
+
+Our first use cases will involve best practice recommendations from the ocean sensing community. See our Wiki for some content examples.
+Please post an issue or contact [PL Buttigieg](orcid.org/0000-0002-4366-3088).
 
 ## Versions
 
+This project is currently in pre-alpha.
+
 ### Stable release versions
 
-The latest version of the ontology can always be found at:
+Once added to the OBO Library, the latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/meso.owl
 
