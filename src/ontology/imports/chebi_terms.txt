@@ -3,3 +3,4 @@ http://purl.obolibrary.org/obo/CHEBI_16526 ## carbon dioxide
 http://purl.obolibrary.org/obo/CHEBI_15379 ## dioxygen
 http://purl.obolibrary.org/obo/CHEBI_16136 ## hydrogen sulfide
 http://purl.obolibrary.org/obo/CHEBI_41609 ## carbonate
+http://purl.obolibrary.org/obo/CHEBI_28966 ## chlorophyll
