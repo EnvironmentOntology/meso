@@ -23,7 +23,21 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MESO_00000020>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/MESO_00000006>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/MESO_00000010>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/MESO_00000012>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/MESO_00000014>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/MESO_00000015>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/MESO_00000017>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/MESO_00000019>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/MESO_00000021>))
 
 ############################
 #   Object Properties
@@ -82,6 +96,41 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000007> "b
 SubClassOf(<http://purl.obolibrary.org/obo/MESO_00000007> <http://purl.obolibrary.org/obo/MESO_00000001>)
 SubClassOf(<http://purl.obolibrary.org/obo/MESO_00000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00002149>))
 
+# Class: <http://purl.obolibrary.org/obo/MESO_00000008> (best practice specification for seawater sensor configuration and installation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000008> "best practice specification for seawater sensor configuration and installation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MESO_00000008> <http://purl.obolibrary.org/obo/MESO_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/MESO_00000009> (best practice specification for calibrating temperature and conductivity sensors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000009> "best practice specification for calibrating temperature and conductivity sensors"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MESO_00000009> <http://purl.obolibrary.org/obo/MESO_00000008>)
+
+# Class: <http://purl.obolibrary.org/obo/MESO_00000011> (best practice specification for calibrating chlorophyll sensors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000011> "best practice specification for calibrating chlorophyll sensors"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MESO_00000011> <http://purl.obolibrary.org/obo/MESO_00000008>)
+
+# Class: <http://purl.obolibrary.org/obo/MESO_00000013> (best practice specification for calibrating oxygen sensors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000013> "best practice specification for calibrating oxygen sensors"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MESO_00000013> <http://purl.obolibrary.org/obo/MESO_00000008>)
+
+# Class: <http://purl.obolibrary.org/obo/MESO_00000016> (best practice specification for calibrating pH sensors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000016> "best practice specification for calibrating pH sensors"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MESO_00000016> <http://purl.obolibrary.org/obo/MESO_00000008>)
+
+# Class: <http://purl.obolibrary.org/obo/MESO_00000018> (best practice specification for calibrating nitrate sensors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000018> "best practice specification for calibrating nitrate sensors"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MESO_00000018> <http://purl.obolibrary.org/obo/MESO_00000008>)
+
+# Class: <http://purl.obolibrary.org/obo/MESO_00000020> (best practice specification for calibrating partial pressure of carbon dioxide sensors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000020> "best practice specification for calibrating partial pressure of carbon dioxide sensors"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MESO_00000020> <http://purl.obolibrary.org/obo/MESO_00000008>)
+
 
 ############################
 #   Named Individuals
@@ -94,6 +143,46 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000006> "F
 ClassAssertion(<http://purl.obolibrary.org/obo/MESO_00000002> <http://purl.obolibrary.org/obo/MESO_00000006>)
 ClassAssertion(<http://purl.obolibrary.org/obo/MESO_00000005> <http://purl.obolibrary.org/obo/MESO_00000006>)
 ClassAssertion(<http://purl.obolibrary.org/obo/MESO_00000007> <http://purl.obolibrary.org/obo/MESO_00000006>)
+
+# Individual: <http://purl.obolibrary.org/obo/MESO_00000010> (FixO3 best practice specification for calibrating temperature and conductivity sensors)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MESO_00000010> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#temperature-and-conductivity-calibration")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000010> "FixO3 best practice specification for calibrating temperature and conductivity sensors"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/MESO_00000009> <http://purl.obolibrary.org/obo/MESO_00000010>)
+
+# Individual: <http://purl.obolibrary.org/obo/MESO_00000012> (FixO3 best practice specification for calibrating chlorophyll sensors)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MESO_00000012> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#chlorophyll-calibration")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000012> "FixO3 best practice specification for calibrating chlorophyll sensors"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/MESO_00000011> <http://purl.obolibrary.org/obo/MESO_00000012>)
+
+# Individual: <http://purl.obolibrary.org/obo/MESO_00000014> (FixO3 best practice specification for calibrating oxygen sensors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000014> "FixO3 best practice specification for calibrating oxygen sensors"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/MESO_00000015> (FixO3 best practice specification for calibrating oxygen sensors)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MESO_00000015> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#oxygen-calibration")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000015> "FixO3 best practice specification for calibrating oxygen sensors"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/MESO_00000013> <http://purl.obolibrary.org/obo/MESO_00000015>)
+
+# Individual: <http://purl.obolibrary.org/obo/MESO_00000017> (FixO3 best practice specification for calibrating pH sensors)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MESO_00000017> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#ph-calibration")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000017> "FixO3 best practice specification for calibrating pH sensors"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/MESO_00000016> <http://purl.obolibrary.org/obo/MESO_00000017>)
+
+# Individual: <http://purl.obolibrary.org/obo/MESO_00000019> (FixO3 best practice specification for calibrating nitrate sensors)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MESO_00000019> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#nitrate-calibration")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000019> "FixO3 best practice specification for calibrating nitrate sensors"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/MESO_00000018> <http://purl.obolibrary.org/obo/MESO_00000019>)
+
+# Individual: <http://purl.obolibrary.org/obo/MESO_00000021> (FixO3 best practice specification for calibrating partial pressure of carbon dioxide sensors)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MESO_00000021> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#pco2-calibrations")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MESO_00000021> "FixO3 best practice specification for calibrating partial pressure of carbon dioxide sensors"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/MESO_00000020> <http://purl.obolibrary.org/obo/MESO_00000021>)
 
 
 )
